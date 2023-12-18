@@ -19,7 +19,7 @@ modules or another vendor system.
 ### Fixed
 
 - [@chirino](https://github.com/chirino): fix: you could not use a
-struct to for both di and json marshalling ([#41](https://github.com/defval/di/pull/41)).
+struct to for both di and json marshalling ([#41](https://github.com/matdurand/di/pull/41)).
 
 ## v1.11.0
 
@@ -31,21 +31,21 @@ struct to for both di and json marshalling ([#41](https://github.com/defval/di/p
 
 - [@chirino](https://github.com/chirino): Prefer using "di:" field tags
   to control injection options to avoid conflicting with tags used by
-  other libraries ([#38](https://github.com/defval/di/pull/38)).
+  other libraries ([#38](https://github.com/matdurand/di/pull/38)).
 
 ## v1.10.0
 
 ### Added
 
 - [@chirino](https://github.com/chirino): Container nesting. See
-  `AddParent()` function ([#35](https://github.com/defval/di/pull/35)).
+  `AddParent()` function ([#35](https://github.com/matdurand/di/pull/35)).
 - An experimental feature: Instance decoration with `di.Decorate()`.
 
 ### Fixed
 
 - [@chirino](https://github.com/chirino): Calling `Resolve()` on a
   `di.Injectable` would overwrite the skip fields
-  ([#34](https://github.com/defval/di/pull/34)).
+  ([#34](https://github.com/matdurand/di/pull/34)).
 
 ## v1.9.0
 
@@ -160,7 +160,7 @@ struct to for both di and json marshalling ([#41](https://github.com/defval/di/p
 
 ### Fixed
 
-- [Using `di.WithName()` breaks when having one entry without a `di.Name()`](https://github.com/defval/di/issues/16):
+- [Using `di.WithName()` breaks when having one entry without a `di.Name()`](https://github.com/matdurand/di/issues/16):
 
 ## v1.2.0
 
@@ -179,7 +179,7 @@ struct to for both di and json marshalling ([#41](https://github.com/defval/di/p
 - Changed `di.Parameter` to `di.Inject`.
 - Remove `optional` support from `di` tag.
 - Add `optional` tag. See
-  [this](https://github.com/defval/di#optional-parameters).
+  [this](https://github.com/matdurand/di#optional-parameters).
 
 ### Added
 

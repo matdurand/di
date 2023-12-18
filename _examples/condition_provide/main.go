@@ -7,7 +7,7 @@ import (
 	"net"
 	"os"
 
-	"github.com/defval/di"
+	"github.com/matdurand/di"
 )
 
 // Configuration

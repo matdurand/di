@@ -133,7 +133,7 @@ func (c *Container) Invoke(invocation Invocation, options ...InvokeOption) error
 // Error will be returned as is.
 type OptionsFactory interface{}
 
-// ProvideValue provides value as is.
+// ProvideOptions provides a function to build and register additional dependencies in the di.Container.
 func (c *Container) ProvideOptions(fn OptionsFactory, options ...ProvideOption) error {
 	if err := c.provideOptions(fn, options...); err != nil {
 		return errWithStack(err)

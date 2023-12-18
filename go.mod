@@ -1,4 +1,4 @@
-module github.com/defval/di
+module github.com/matdurand/di
 
 go 1.20
 

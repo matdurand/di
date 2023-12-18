@@ -33,5 +33,5 @@ func errWithStack(err error) error {
 }
 
 func bug() {
-	panic("you found a bug, please create new issue for this: https://github.com/defval/di/issues/new")
+	panic("you found a bug, please create new issue for this: https://github.com/matdurand/di/issues/new")
 }

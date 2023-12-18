@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/defval/di"
+	"github.com/matdurand/di"
 )
 
 func TestOptions(t *testing.T) {
